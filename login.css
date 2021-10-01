@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+
+body{	
+	height: 100vh;
+	background-image: url('img/bg12.jpg');
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin:0;
+	overflow: hidden;
+}
+
+.container{
+	width:480px;
+	background-image: url('img/bg10.jpg');
+	/*background-color: var(--wcc);*/
+	box-shadow:2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.container h2{
+	color:rgba(63,30,127,1.00);
+	text-align: center;
+	margin-bottom: 0;
+}
+
+form{
+	margin-top:20px;
+}
+
+.form{
+	
+	padding:30px 40px;
+}
+
+.form .form-group{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.form-group label{
+	display: block;
+	color: rgba(63,30,127,1.00);
+	margin-bottom: 8px;
+}
+
+.form-group .form-control{
+	width:100%;
+	background-color: rgba(131,33,127,1.00);
+	padding:5px;
+}	
+
+.form-group .form-control:focus{
+	outline:0;
+}
+.form-group .form-control::placeholder{
+	color: white;
+	background-color: rgba(131,33,127,1.00);
+}
+
+.form .btn{
+	letter-spacing: 1px;
+	width:100%;
+	background-color: teal;
+	color:#fff;
+	font-size: 14px;
+	border-radius: 5px;
+	border:none;
+	padding:8px;
+	cursor:pointer;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.form .btn:active{
+	transform: scale(0.98);
+}
+
+.signup{
+	width:20px;
+	height:20px;
+	text-align: center;
+	text-decoration:none;
+	color: purple; 
+	margin-left: 160px;
+}
+
+.home{
+	width:20px;
+	height:20px;
+	padding:5px;
+	background-color: white;
+	text-decoration:none;
+	color: black;
+	border-radius: 5px;
+	margin-left: 350px;
+}

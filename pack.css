@@ -1,0 +1,33 @@
+img{
+	margin-left: 20px;
+}
+
+.con1,.con2,.con3,.con4,.con5,.con6{
+	width:100%;
+	margin:40px;
+	margin-left: 10px;
+
+}
+
+.con11,.con22,.con33,.con44,.con55,.con66{
+	width:93%;
+	height: 150px;
+	background-color: teal;
+	color: white;
+	padding:5px;
+	
+}
+
+div{
+	margin-left: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	margin:5px;
+	background-color: black;
+	color: white;
+}
